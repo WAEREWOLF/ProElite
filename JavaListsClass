@@ -46,3 +46,71 @@ public void setNume(String a)
 
 
 }
+
+/////////////////////////////////
+
+package2:
+
+package Clasa1;
+import pachet1.Elev;
+import java.util.List;
+import java.util.ArrayList;
+
+
+public class classa {
+private List <Elev> elevi;
+	
+public static void main (String var[]) {
+	classa cls=new classa();
+	cls.elevi= new ArrayList<Elev>();
+	
+	
+	Elev elev= new Elev();
+	elev.setId(1);
+	elev.setNume("Popescu");
+	elev.setPrenume("Andrei");
+	elev.setVarsta(19);
+	cls.elevi.add(elev);
+	
+	Elev elev1= new Elev();
+	elev1.setId(2);
+	elev1.setNume("Anghel");
+	elev1.setPrenume("Ana");
+	elev1.setVarsta(20);
+	cls.elevi.add(elev1);
+	
+	Elev elev2= new Elev();
+	elev2.setId(3);
+	elev2.setNume("Sarbu");
+	elev2.setPrenume("Anania");
+	elev2.setVarsta(21);
+	cls.elevi.add(elev2);
+	
+	Elev elev3= new Elev();
+	elev3.setId(4);
+	elev3.setNume("Ionut");
+	elev3.setPrenume("Albu");
+	elev3.setVarsta(22);
+	cls.elevi.add(elev3);
+	
+	Elev elev4= new Elev();
+	elev4.setId(2);
+	elev4.setNume("Priscop");
+	elev4.setPrenume("Andi");
+	elev4.setVarsta(18);
+	cls.elevi.add(elev4);
+	
+	for(int i=0; i< cls.elevi.size(); i++)
+	{
+		Elev e=cls.elevi.get(i);
+		System.out.println("Id: " + elev.getId());
+		System.out.println("Nume: " + elev.getNume());
+		System.out.println("Prenume: " + elev.getPrenume());
+		System.out.println("Varsta: " + elev.getVarsta());
+		
+	}
+	
+	
+}
+	
+}
