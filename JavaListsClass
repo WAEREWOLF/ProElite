@@ -1,0 +1,48 @@
+package1:
+
+package pachet1;
+
+public class Elev {
+private String nume;
+private String prenume;
+private	int varsta;
+private int Id;
+ 
+public String getNume() {
+	return nume;
+}
+
+public String getPrenume() {
+	return prenume;
+}
+
+public int getVarsta() {
+	return varsta;	
+}
+
+public int getId()
+{ return Id;
+}
+
+public void setVarsta(int a)
+{
+	varsta=a;
+}
+
+public void setId(int b)
+{
+	Id=b;
+}
+
+public void setPrenume(String a)
+{
+	prenume =a;
+}
+
+public void setNume(String a)
+{
+	nume=a;
+}
+
+
+}
